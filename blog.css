@@ -1,0 +1,70 @@
+body,
+html {
+  height: 100%;
+  background-color: hsl(47, 88%, 63%);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: "Figtree", sans-serif;
+  font-size: 16px;
+}
+main {
+  height: 500px;
+  width: 400px;
+  background-color: white;
+  box-shadow: 8px 8px 1px 1px black;
+  border: 1px solid black;
+  border-radius: 15px;
+  display: flex;
+  flex-direction: column;
+  padding: 5%;
+}
+.img {
+  border-radius: 10px;
+}
+.title {
+  width: 25%;
+  height: 5%;
+  background-color: hsl(47, 88%, 63%);
+  text-align: center;
+  margin-top: 5%;
+  margin-bottom: 5%;
+  border-radius: 5px;
+  padding-top: 1%;
+  font-weight: bold;
+}
+.published {
+  font-size: 14px;
+}
+.header {
+  font-size: 24px;
+  margin-top: 5%;
+  margin-bottom: 5%;
+}
+.header:hover {
+  cursor: pointer;
+  color: hsl(47, 88%, 63%);
+}
+.paraghraph {
+  color: hsl(0, 0%, 50%);
+}
+.publisher {
+  display: flex;
+  align-items: center;
+}
+figure {
+  display: inline-block;
+  margin-right: 3%;
+  width: 10%;
+  height: 40%;
+  margin-left: 0;
+}
+.icon {
+  width: 100%;
+  height: 100%;
+}
+@media (max-width: 787px) {
+  main {
+    width: 350px;
+  }
+}
